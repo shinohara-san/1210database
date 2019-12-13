@@ -1,0 +1,93 @@
+body{
+  background: aliceblue;
+}
+
+h1{
+  text-align: center;
+}
+
+.flex_column{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex{
+  display: flex;
+}
+
+.title_wrapper{
+  position: relative;
+}
+
+.link_to_products{
+  color: black;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form{
+  width:30%;
+  margin: auto;
+}
+
+form label{
+  margin-top:10px;
+}
+
+form input, textarea{
+  border: none;
+  font-size: 16px;
+  padding:5px;
+  margin-bottom: 5px;
+}
+
+button{
+    font-size: 16px;
+    color: white;
+    background: lightcoral;
+    width: 50%;
+    border: none;
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+.product{
+  text-align: center;
+  width:30%;
+  margin: auto;
+}
+
+.product_title{
+  font-size: 35px;
+}
+
+.product_img{
+  width: 300px;
+}
+
+.product_price{
+  font-size: 35px;
+}
+
+.product_description{
+  text-align: left;
+    margin: auto;
+    width: 90%;
+}
+
+.like{
+background: cyan;
+}
+.edit{
+background: lime;
+margin-right:5px;
+margin-left:5px;
+}
+
+.sample_input[readonly] {
+cursor: default;
+background-color: rgb(204, 202, 202);
+}
